@@ -60,7 +60,7 @@ using "Companion_Wolf"
 data "Strength" "10"
 data "Dexterity" "10"
 data "Constitution" "10"
-data "Intelligence" "15"
+data "Intelligence" "16"
 data "Wisdom" "10"
 data "Charisma" "10"
 data "Armor" "18"
@@ -82,10 +82,39 @@ data "Passives" "DarknessRules"
 data "PersonalStatusImmunities" "SG_Charmed;SG_Poisoned;BLEEDING;GAPING_WOUND"
 data "GameSize" "Small"
 
+
+new entry "Companion_Artillerist_EldritchCannon_5"
+type "Character"
+using "Companion_Artillerist_EldritchCannon"
+data "Vitality" "25"
+data "Intelligence" "18"
+
+new entry "Companion_Artillerist_EldritchCannon_7"
+type "Character"
+using "Companion_Artillerist_EldritchCannon"
+data "Vitality" "35"
+data "Intelligence" "18"
+
+new entry "Companion_Artillerist_EldritchCannon_9"
+type "Character"
+using "Companion_Artillerist_EldritchCannon"
+data "Vitality" "45"
+data "Intelligence" "20"
+
+new entry "Companion_Artillerist_EldritchCannon_12"
+type "Character"
+using "Companion_Artillerist_EldritchCannon"
+data "Vitality" "60"
+data "Intelligence" "20"
+
+
+
 new entry "Companion_Artillerist_EldritchCannon_2"
 type "Character"
 using "Companion_Artillerist_EldritchCannon"
-data "Vitality" "40"
+data "Vitality" "45"
+data "Intelligence" "20"
+
 
 
 new entry "Companion_Ooze_Alchemist"
