@@ -1,3 +1,5 @@
+This is a fork of the original Baldur's Gate 3 Artificer mod intended to address some concerns with class balance and level progression, specifically focused on the Artillerist subclass.
+
 # Baldur's Gate 3 Artificer
 Collaborative effort to bring Artificer and its subclasses to Baldur's Gate 3
 
