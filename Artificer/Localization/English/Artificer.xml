@@ -79,6 +79,7 @@
 	<content contentuid="1126e61e8g9b89g4f30gb649gb3a97346a443" version="1">Flamethrower</content>
 	<content contentuid="1136e61e8g9b89g4f30gb649gb3a97346a443" version="1">The cannon exhales fire in an adjacent cone that you designate.  Each creature in that area must make a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; against your spell save &lt;LSTag Tooltip="DifficultyClass"&gt;DC&lt;/LSTag&gt;, taking 2d8 fire damage on a failed save or half as much damage on a successful one.  The fire ignites any flammable objects in the area that aren't being worn or carried.</content>
 	<content contentuid="2226e61e8g9b89g4f30gb649gb3a97346a443" version="1">Force Ballista</content>
+	<content contentuid="2226e61e8g9b89g4f30gb649gb3a97346a444" version="1">Off-Hand Force Ballista</content>
 	<content contentuid="2236e61e8g9b89g4f30gb649gb3a97346a443" version="1">Make a ranged spell attack, originating from the cannon, at one creature or object within range.  On a hit, the target takes damage and is pushed up to away from the cannon.</content>
 	<content contentuid="3326e61e8g9b89g4f30gb649gb3a97346a443" version="1">Protector</content>
 	<content contentuid="3336e61e8g9b89g4f30gb649gb3a97346a443" version="1">The cannon emits a burst of positive energy that grants itself and each creature of your choice a number of temporary hit points.</content>
@@ -96,7 +97,7 @@
 	<content contentuid="772d30149g1349g4008g9807g532569db7932" version="2">This companion's &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and damage increase with the &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; of its artificer.</content>
 
 	<content contentuid="888f820e5gfdf7g4cc2g9309gb90acd0d2ff7" version="1">Steel Defender</content>
-	<content contentuid="999f820e5gfdf7g4cc2g9309gb90acd0d2ff7" version="1">Your tinkering has borne you a faithful companion, a Steel Defender.  You can summon it freely and give it commands in battle</content>
+	<content contentuid="999f820e5gfdf7g4cc2g9309gb90acd0d2ff7" version="1">Your tinkering has borne you a faithful companion, a Steel Defender.  You can summon it freely and give it commands in battle.</content>
 	<content contentuid="77062bb49gc270g4353gb6ebgf4c2248ea879" version="1">Force-Empowered Rend</content>
 	<content contentuid="77bf1636cgabfcg4312gbf40g99c410daea86" version="2">Deals Force damage to the target.</content>
 	<content contentuid="he53dd9c1g0a96g40f7g8606gd0e9a5b0d3a4" version="1">Battle Ready</content>
@@ -110,7 +111,7 @@
 	<content contentuid="6669dd9c1g0a96g40f7g8606gd0e9a5b0d3a4" version="1">Arcane Jolt (Heal)</content>
 	<content contentuid="666741faag16e8g4399g8efbgc2af8304f248" version="1">Choose one creature or object you can see.  Healing energy flows into the chosen recipient, restoring &lt;LSTag Tooltip="HitPoints"&gt;Hit Points&lt;/LSTag&gt; to it. &lt;br&gt;&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Expends 1 use of Arcane Jolt.</content>
 	<content contentuid="2222222c1g0a96g40f7g8606gd0e9a5b0d3a4" version="1">Deflect Attack</content>
-	<content contentuid="3222223aag16e8g4399g8efbgc2af8304f248" version="1">The defender imposes disadvantage on the attack roll of one creature it can see, provided the attack roll is against a creature other than the Steel Defender.</content>
+	<content contentuid="3222223aag16e8g4399g8efbgc2af8304f248" version="1">The Steel Defender can impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the attack roll of one nearby creature it can see, provided the attack roll is against a creature other than the Steel Defender and that the target is within [1].</content>
 
 	<content contentuid="1239dd9c1g0a96g40f7g8606gd0e9a5b0d3a4" version="1">Alchemical Adept</content>
 	<content contentuid="456741faag16e8g4399g8efbgc2af8304f248" version="1">You achieved a profound understanding of how to use and create consumable items useful in combat.  You can expend Salvaged Elements to craft them.</content>
@@ -138,7 +139,7 @@
 	<content contentuid="h77795291g7885g4073gae09ge965b053adee" version="1">Create Spell Slot</content>
 	<content contentuid="h777b555eg9c5fg4a37gb370g47cab9a77bf3" version="1">Spend Infusion Slots to unlock a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt;.</content>
 	<content contentuid="h9efaa994g1470g4e9fgb79eg5b65ca0eabab" version="1">The Right Tool for the Job</content>
-	<content contentuid="h8a9b92f5g7834g4c30gbeaag4063ee1c94e8" version="1">You've learned how to produce exactly the tool you need:  you can magically create thieves tools, a trap disarmimg kit, or a shovel.</content>
+	<content contentuid="h8a9b92f5g7834g4c30gbeaag4063ee1c94e8" version="1">You've learned how to produce exactly the tool you need:  you can magically create thieves tools, a trap disarming kit, or a shovel.</content>
 	<content contentuid="hde264abbg9d67g4000gb383g12ce2ac80341" version="1">Craft: Thieves Tools</content>
 	<content contentuid="hd0f27fc2gffb5g4e11ga18dg0b0634fb3ac7" version="1">Craft: Trap Disarm Kit</content>
 	<content contentuid="h95a73c80ga7a2g4049g8329g92e1048cf2eb" version="1">Craft: Shovel</content>
@@ -162,7 +163,7 @@
 	<content contentuid="h7760aa44gdd6dg477cgb896g1ee6e25f8077" version="1">You can infuse a weapon to grant a + 1 bonus to Attack and Damage Rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack.</content>
 	<content contentuid="h9960aa4499d6dg477cgb896g1ee6e25f8997" version="1">Infuse a weapon with magic, granting a + 1 bonus to Attack and Damage Rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack.</content>
 	<content contentuid="h35a784f2gfef9g4d32g909dgb2596a0f2baa" version="1">Infusion: Repeating Shot</content>
-	<content contentuid="had7f84f2gfef9g4d32g909dgb2596a0f2ccc" version="1">Infuse a Crossbow with magic, granting a +1 bonus to Attack and Damage Rolls made with it when it's used to make a ranged attack.  If you equip it in your Main Hand and you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it, allowing to attack two targets once per turn.  The attacks become faster when you reach 10th level in this class, requiring no Bonus Action.</content>
+	<content contentuid="had7f84f2gfef9g4d32g909dgb2596a0f2ccc" version="1">Infuse a Crossbow or Firearm with magic, granting a +1 bonus to Attack and Damage Rolls made with it when it's used to make a ranged attack.  If you equip it in your Main Hand and you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you make a ranged attack with it, allowing to attack two targets once per turn.  The attacks become faster when you reach 10th level in this class, requiring no Bonus Action.</content>
 	<content contentuid="hc0f7ac54391a4420688e6f814692e99a8ccc" version="1">Infusion: Resistant Armor</content>
 	<content contentuid="hc6bbc38e41b25457cb813aa8a4c96b313ccc" version="1">While wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.</content>
 	<content contentuid="hc4ad6526d19724cf98e69fb6fa0d7818accc" version="1">Infusion: Resistant Armor (Acid)</content>
@@ -197,6 +198,8 @@
 	<content contentuid="hc5e87b2a8f9bc4046902b677a3a3143a8ccc" version="1">While wearing this armor, a creature has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant Damage.</content>
 	<content contentuid="hc328b59e9ad994d0fa282fc6f7d8fa65accc" version="1">While wearing this armor, a creature has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Thunder Damage.</content>
 	<content contentuid="h8c58452eg9761g4385gae6fg12d286bfdfa9" version="1">Infusion: Bag of Holding</content>
+	<content contentuid="h8c58452eg9761g4385gae6fg12d286bfdfaa" version="1">Infusion: Bag of Holding - Disabled</content>
+	<content contentuid="h8c58452eg9761g4385gae6fg12d286bfdfab" version="1">The link to the Astral Plane doesn't work while inside the Astral Plane.</content>
 	<content contentuid="777463d7fg404cg4825g8dedgdeebc97b9914" version="1">&lt;LSTag Type="Image" Info="Warning"/&gt; Using it twice will create a brief portal to the Astral Plane</content>
 	<content contentuid="hcc921844g2288g4c8dg9663gc53d74cf0c28" version="1">You learned how to infuse your backpack with magical energy to transform it into a Bag of Holding that allows you to place items in an extradimensional space, greatly increasing the amount of items it can carry and disregarding weight.  The Bag of Holding won't work in the Astral Plane.  Using this infusion twice or placing the Bag of Holding inside another extradimensional space instantly destroys both items and opens a gate to the Astral Plane.  The gate originates where the one item was placed inside the other.  Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane.  The gate then closes.  The gate is one-way only and can't be reopened.</content>
 	<content contentuid="h77821844g2288g4c8dg9663gc53d74456c29" version="1">Repeating Shot</content>
@@ -240,6 +243,9 @@
 	<content contentuid="h77d62355g3b68g457aga31dg36e1b81ae6f3" version="1">Armor Model: Guardian - Perfected</content>
 	<content contentuid="he76d1b71g575fg459fg84b3geb09d829dec0" version="1">You design your armor to be in the front line of conflict</content>
 	<content contentuid="h83fd3cd2gb9a3g45aegb17ag371fd93e0c06" version="1">Armor Model: Infiltrator</content>
+	<content contentuid="h01fd3cd2gb9a3g45aegb17ag371fd93e0c06" version="1">Armor Model: Infiltrator - Main Hand Launcher</content>
+	<content contentuid="h02fd3cd2gb9a3g45aegb17ag371fd93e0c06" version="1">Armor Model: Infiltrator - Off-Hand Launcher</content>
+	<content contentuid="h03fd3cd2gb9a3g45aegb17ag371fd93e0c06" version="1">Armor Model: Infiltrator - Chest-Mounted Launcher</content>
 	<content contentuid="h77fd3cd2gb9a3g45aegb17ag371fd93e0c06" version="1">Armor Model: Infiltrator - Perfected</content>
 	<content contentuid="ha81b99e3gdfebg41b3gbef7gecc642f765c5" version="1">You customize your armor for subtle undertakings.</content>
 	<content contentuid="habe83eaag7ea6g4b29ga470g909b8380079d" version="1">Perfected Armor</content>
@@ -248,16 +254,20 @@
 	<content contentuid="h1111159eg3214g4772g9085gce3dcff90a4d" version="1">Thunder Gauntlets</content>
 	<content contentuid="ha111159eg3214g4772g9085gce3dcff90a4d" version="1">Your right gauntlet is imbued with energy.</content>
 	<content contentuid="h111114bcg3365g4812ga6a5gb0fa92c75165" version="1">Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals Thunder damage on a hit.  A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.</content>
-	<content contentuid="h1111259eg3214g4772g9085gce3dcff90a4d" version="1">Thunder Gauntlets Off Hand</content>
+	<content contentuid="h1111259eg3214g4772g9085gce3dcff90a4d" version="1">Off-Hand Thunder Gauntlets</content>
 	<content contentuid="ha111259eg3214g4772g9085gce3dcff90a4d" version="1">Your left gauntlet is imbued with energy.</content>
 	<content contentuid="h111124bcg3365g4812ga6a5gb0fa92c75165" version="1">Each of the armor's gauntlets counts as a simple melee weapon while you aren't holding anything in it, and it deals Thunder damage on a hit.  A creature hit by the gauntlet has disadvantage on attack rolls against targets other than you until the start of your next turn, as the armor magically emits a distracting pulse when the creature attacks someone else.</content>
 	<content contentuid="h7766559eg3214g4772g9085gce3dcff90a4d" version="1">Thunder Emitter</content>
-	<content contentuid="h7866559eg3214g4772g9085gce3dcff90a4d" version="1">Thunder Emitter Off Hand</content>
+	<content contentuid="h7866559eg3214g4772g9085gce3dcff90a4d" version="1">Off-Hand Thunder Emitter</content>
 	<content contentuid="h7966559eg3214g4772g9085gce3dcff90a4d" version="1">This device can be added on top of gauntlets (or bare hands) to make Thunder Gauntlets.  Each of them counts as a simple melee weapon while you aren't holding anything else.</content>
 	<content contentuid="h2111159eg3214g4772g9085gce3dcff90a4d" version="1">Defensive Field</content>
 	<content contentuid="h211114bcg3365g4812ga6a5gb0fa92c75165" version="1">As a bonus action, you can gain temporary hit points.</content>
 	<content contentuid="h1222259eg3214g4772g9085gce3dcff90a4d" version="1">Lightning Launcher</content>
-	<content contentuid="h222224bcg3365g4812ga6a5gb0fa92c75165" version="1">You can emit lightnings from your hands.  Once on each of your turns when you hit a creature with it, you can deal an extra Lightning damage to that target.</content>
+	<content contentuid="h1333259eg3214g4772g9085gce3dcff90a4d" version="1">Off-Hand Lightning Launcher</content>
+	<content contentuid="h1c22259eg3214g4772g9085gce3dcff90a4d" version="1">Chest Mounted Lightning Launcher</content>
+	<content contentuid="hc966559eg3214g4772g9085gce3dcff90a4d" version="1">This device can be added on top of gauntlets (or bare hands) to make Lightning Launchers.  Each of them counts as a ranged weapon while you aren't holding anything else.</content>
+	<content contentuid="h222224bcg3365g4812ga6a5gb0fa92c75165" version="1">You can shoot lightnings from your hands.  Once on each of your turns when you hit a creature with it, you can deal an extra Lightning damage to that target.</content>
+	<content contentuid="hc22224bcg3365g4812ga6a5gb0fa92c75165" version="1">You can shoot lightnings from your chest.  Once on each of your turns when you hit a creature with it, you can deal an extra Lightning damage to that target.</content>
 	<content contentuid="h2222259eg3214g4772g9085gce3dcff90a4d" version="1">Powered Steps</content>
 	<content contentuid="h322224bcg3365g4812ga6a5gb0fa92c75165" version="1">Your walking speed increases by 1.5 meters.</content>
 	<content contentuid="h4222259eg3214g4772g9085gce3dcff90a4d" version="1">Dampening Field</content>
@@ -313,12 +323,12 @@
 	<content contentuid="h7d80071bga99bg463ag8d37gcc4c76000003" version="1">Summons a Ooze to fight at your side dealing Acid attacks.</content>
 
 	<content contentuid="h7d80071bga99bg463ag8d37gcc4c70000005" version="1">Armor of Battle Inventions</content>
-	<content contentuid="h7d80071bga99bg463ag8d37gcc4c71000005" version="1">This armor is the legacy of an adventurer who traveled along the Sword Coast during 1372.  It was designed to be efficient and functional in any situation, equipped with an arcane energy condenser to enhance its steel defender's performance.  It is said that the first one was made from scrap pieces acquired from junk dealers.  When the adventurer became famous, they created a more defined prototype of such armor and later shared the knowledge with the priests of Gond to gift it to inventors throughout Faerûn.</content>
+	<content contentuid="h7d80071bga99bg463ag8d37gcc4c71000005" version="1">This armor is the legacy of an adventurer who traveled along the Sword Coast during 1372.  It was designed to be efficient and functional in any situation, equipped with an arcane energy condenser to enhance its Steel Defender's performance.  It is said that the first one was made from scrap pieces acquired from junk dealers.  When the adventurer became famous, they created a more defined prototype of such armor and later shared the knowledge with the priests of Gond to gift it to inventors throughout Faerûn.</content>
 	<content contentuid="h7d80071bga99bg463ag8d37gcc4c72000005" version="1">Charged Arcane Jolt</content>
-	<content contentuid="h7d80071bga99bg463ag8d37gcc4c73000005" version="1">Adds etra Lightning damage or extra healing to Arcane Jolt.</content>
+	<content contentuid="h7d80071bga99bg463ag8d37gcc4c73000005" version="1">Adds extra Lightning damage or extra healing to Arcane Jolt.</content>
 	<content contentuid="h7d80071bga99bg463ag8d37gcc4c74000005" version="1">Steel Defender Overdrive</content>
-	<content contentuid="h7d80071bga99bg463ag8d37gcc4c75000005" version="1">Infuse your Steel Defender with Lightning magic, granting it a bonus to attacks and new abilities.</content>
-	<content contentuid="h7d80071bga99bg463ag8d37gcc4c76000005" version="1">Infused with Lightning magic, which grants a bonus to attacks and new abilities.</content>
+	<content contentuid="h7d80071bga99bg463ag8d37gcc4c75000005" version="1">Infuse your Steel Defender with Lightning magic, granting Extra Attack, a damage bonus and new abilities.</content>
+	<content contentuid="h7d80071bga99bg463ag8d37gcc4c76000005" version="1">Infused with Lightning magic, which grants Extra Attack, a damage bonus and new abilities.</content>
 
 	<content contentuid="h7d80071bga99bg463ag8d37gcc4c70000004" version="1">The Deconstructor</content>
 	<content contentuid="h7d80071bga99bg463ag8d37gcc4c71000004" version="1">The years an artificer puts into their work is mostly for creating wonders.  However, sometimes the creation might be a touch too good and needs to be put down quickly in order to save face and insurance premiums.  Too many explosions tend to get the law man involved, so it might be best to put it out of commission before too many eye catch a glimpse...  Also good for clearing obstacles.</content>
@@ -326,6 +336,42 @@
 	<content contentuid="h7d80071bga99bg463ag8d37gcc4c73000004" version="1">Weapon attacks deal devastating damage to items and constructs.</content>
 	<content contentuid="h7d80071bga99bg463ag8d37gcc4c74000004" version="1">Electrocution</content>
 	<content contentuid="h7d80071bga99bg463ag8d37gcc4c75000004" version="1">Weapon attacks extra Ligntning damage.</content>
+	<content contentuid="h7d80071bga99bg463ag8d37gcc4c76000004" version="1">Draconic Deconstructor</content>
+	<content contentuid="h7d80071bga99bg463ag8d37gcc4c77000004" version="1">It is unclear if The Deconstructor was originally an attempt to replicate this wonder or if day a powerful dragon just decided to bestow their gift on a well made hammer.  It's also possible that this is just the result of a collaboration between talented artisans and clerics.  All we know is that this weapon is as good as its more common version, but carries a very powerful blessing.</content>
+	
+	<content contentuid="h778820e5gfdf7g4cc2g9309gb90acd0d2ff7" version="1">Steel Watcher Schematics</content>
+	<content contentuid="h778920e5gfdf7g4cc2g9309gb90acd0d2ff7" version="1">Detailed instructions of the inner mechanism of a Steel Watcher. It looks like the initial name of the project was "Gondian Auto-Guard".</content>
+	<content contentuid="h997820e5gfdf7g4cc2g9309gb90acd0d2ff7" version="1">Your tinkering has borne you a faithful companion, a Steel Defender modified thanks to the project of the Gondian Auto-Guard.  This smaller Steel Watcher can be summoned freely by a seasoned Battle Smith.</content>
 
+	<content contentuid="h77770ee8g980fg4327ga0e9g46dd7368310e" version="1">This hammer can be used to upgrade your Worker Armour, but you will need a rare metal.</content>
+
+	<content contentuid="h12310ee8g980fg4327ga0e9g46dd7368310e" version="1">Darkvision Monocle</content>
+	<content contentuid="h12315ee8g980fg4327ga0e9g46dd7368310e" version="1">A strange monocle of Githyanki origin. Makes the wearer able to see even in magical darkness.</content>
+
+	<content contentuid="haeeeeee8g980fg4327ga0e9g46dd7368310e" version="1">Flintlock Pistol</content>
+	<content contentuid="hbeeeeee8g980fg4327ga0e9g46dd7368310e" version="1">Firearms are becoming more and more widespread in Faerûn as Lantanese priests of Gond the Wondermaker are making and spreading them throughout the Realms. The Lantanese have mastered flintlock weapons-making, and can regularly produce high-quality pistols.</content>
+	<content contentuid="heeeeeee8g980fg4327ga0e9g46dd7368310e" version="1">Firearm</content>
+	<content contentuid="heeeefee8g980fg4327ga0e9g46dd7368310e" version="1">A mechanism that allows to shoot projectiles thanks to power of runepowder.</content>
+
+	<content contentuid="haccceee8g980fg4327ga0e9g46dd7368310e" version="1">Flintlock Musket</content>
+	<content contentuid="hbccceee8g980fg4327ga0e9g46dd7368310e" version="1">Firearms are becoming more and more widespread in Faerûn as Lantanese priests of Gond the Wondermaker are making and spreading them throughout the Realms. The Lantanese have mastered flintlock weapons-making, and can regularly produce high-quality muskets.</content>
+
+	<content contentuid="h000f7c68ge983g4735g979eg25c197ee9962" version="1">Ranged Attack (Firearm)</content>
+	<content contentuid="h001f7c68ge983g4735g979eg25c197ee9962" version="1">Make a ranged attack with your firearm.</content>
+	<content contentuid="h010f7c68ge983g4735g979eg25c197ee9962" version="1">Off-Hand Ranged Attack (Firearm)</content>
+	<content contentuid="h011f7c68ge983g4735g979eg25c197ee9962" version="1">Make a ranged attack with your off-hand firearm.</content>
+
+	<content contentuid="h9cd08861g50cfg4a67gb598gdbe47fbce245" version="1">Firearm</content>
+	<content contentuid="hc5bd4565g187cg49e2ga99eg43b33c5b8142" version="1">Firearms</content>
+
+	<content contentuid="hfffd4565g187cg49e2ga99eg43b33c5b8142" version="1">Gunner</content>
+	<content contentuid="hffff4565g187cg49e2ga99eg43b33c5b8142" version="1">Gunner: Point-Blank</content>
+	<content contentuid="hfffff565g187cg49e2ga99eg43b33c5b8142" version="1">Gunner: Proficiency</content>
+	<content contentuid="hddfff565g187cg49e2ga99eg43b33c5b8142" version="1">Gunner: Bonus Dexterity</content>
+	<content contentuid="hdffff565g187cg49e2ga99eg43b33c5b8142" version="1">Increase your Dexterity by 1, to a maximum of 20.</content>
+	<content contentuid="hffddd565g187cg49e2ga99eg43b33c5b8142" version="1">You have a quick hand and keen eye when employing firearms, granting you the following benefits:&lt;br&gt;&lt;br&gt;Increase your Dexterity by 1, to a maximum of 20.&lt;br&gt;You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with firearms.&lt;br&gt;When you make firearm attacks within melee range, the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; do not have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+	<content contentuid="hccddd565g187cg49e2ga99eg43b33c5b8142" version="1">When you make firearm attacks within melee range, the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; do not have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+	<content contentuid="hccddf565g187cg49e2ga99eg43b33c5b8142" version="1">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with firearms.</content>
+	<content contentuid="hbbddf565g187cg49e2ga99eg43b33c5b8142" version="1">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with firearms.&lt;br&gt;&lt;br&gt;When you make firearm attacks within melee range, the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; do not have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
 
 </contentList>

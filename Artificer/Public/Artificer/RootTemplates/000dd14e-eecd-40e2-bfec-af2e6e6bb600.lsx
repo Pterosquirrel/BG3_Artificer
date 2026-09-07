@@ -17,6 +17,7 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 					<attribute id="VisualTemplate" type="FixedString" value="69695a73-454f-955d-6452-d82d45a6efc7" />
 					<children>
+
 						<node id="Equipment">
 							<attribute id="EquipmentSlots" type="uint32" value="2" />
 							<attribute id="VisualSetSlot" type="uint32" value="0" />

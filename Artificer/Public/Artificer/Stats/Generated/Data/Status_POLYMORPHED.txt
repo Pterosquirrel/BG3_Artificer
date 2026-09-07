@@ -4,8 +4,7 @@ using "DISGUISE_SELF_TIEFLING_MALE"
 data "Icon" "None"
 data "TemplateID" "17b54c47-dc24-47b7-89a8-cfdf72b32354"
 data "Boosts" ""
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-data "StatusGroups" "ApplyToDead;IgnoreResting"
+data "StatusPropertyFlags" "ApplyToDead;FreezeDuration;IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "Properties" "IsHidden"
 
 new entry "DISGUISE_SELF_ELDRITCH_CANNON_2"
@@ -15,15 +14,27 @@ data "Icon" "None"
 data "TemplateID" "18b54c47-dc24-47b7-89a8-cfdf72b32354"
 
 
-new entry "DISGUISE_SELF_BATTLESMITH_COMPANION"
-type "StatusData"
-using "DISGUISE_SELF_ELDRITCH_CANNON"
-data "Icon" "None"
-data "TemplateID" "0772990c-addc-4e52-80f3-8ef926ca7960"
-
-
 new entry "DISGUISE_SELF_OOZE"
 type "StatusData"
 using "DISGUISE_SELF_ELDRITCH_CANNON"
 data "Icon" "None"
 data "TemplateID" "1de5b868-e741-4a07-9ebe-7aad4bbb5869"
+
+
+new entry "DISGUISE_SELF_STEEL_WATCHER"
+type "StatusData"
+using "DISGUISE_SELF_ELDRITCH_CANNON"
+data "Icon" "None"
+data "TemplateID" "08c73080-9dff-4211-8cbe-e518d99a72dd"
+
+new entry "DISGUISE_SELF_STEEL_WATCHER_QUAD"
+type "StatusData"
+using "DISGUISE_SELF_ELDRITCH_CANNON"
+data "Icon" "None"
+data "TemplateID" "07c73080-9dff-4211-8cbe-e518d99a72dd"
+
+new entry "DISGUISE_SELF_BATTLESMITH_COMPANION"
+type "StatusData"
+using "DISGUISE_SELF_ELDRITCH_CANNON"
+data "Icon" "None"
+data "TemplateID" "0772990c-addc-4e52-80f3-8ef926ca7960"
