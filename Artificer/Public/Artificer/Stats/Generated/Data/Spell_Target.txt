@@ -176,20 +176,8 @@ data "SpellType" "Target"
 using "Target_ArtilleristCompanion"
 data "SpellContainerID" "Target_ArtilleristCompanion"
 data "SpellProperties" "
-
-	GROUND:IF(not ClassLevelHigherOrEqualThan(5,'Artificer') and not ClassLevelHigherOrEqualThan(7, 'Artificer')): Summon(0569f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON);
-
-	GROUND:IF(not ClassLevelHigherOrEqualThan(7,'Artificer') and not ClassLevelHigherOrEqualThan(9, 'Artificer')): Summon(0769f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON);
-	
-	GROUND:IF(not ClassLevelHigherOrEqualThan(9,'Artificer') and not ClassLevelHigherOrEqualThan(11, 'Artificer')): Summon(0969f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON);
-	
-	GROUND:IF(not ClassLevelHigherOrEqualThan(11,'Artificer') and not ClassLevelHigherOrEqualThan(13, 'Artificer')): Summon(1169f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON_2);
-	
-	GROUND:IF(not ClassLevelHigherOrEqualThan(13,'Artificer') and not ClassLevelHigherOrEqualThan(15, 'Artificer')): Summon(0069f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON_2);
-
-	GROUND:IF(ClassLevelHigherOrEqualThan(15,'Artificer') and not ClassLevelHigherOrEqualThan(20,'Artificer')):Summon(0169f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER_ARTIFICER_CANNON_PET_L15,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON_2);
+	GROUND:IF(not ClassLevelHigherOrEqualThan(5, 'Artificer')): Summon(0069f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON);GROUND:IF(ClassLevelHigherOrEqualThan(5,'Artificer') and not ClassLevelHigherOrEqualThan(7, 'Artificer')): Summon(0569f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON);GROUND:IF(ClassLevelHigherOrEqualThan(7,'Artificer') and not ClassLevelHigherOrEqualThan(9, 'Artificer')): Summon(0769f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON);GROUND:IF(ClassLevelHigherOrEqualThan(9,'Artificer') and not ClassLevelHigherOrEqualThan(11, 'Artificer')): Summon(0969f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON);GROUND:IF(ClassLevelHigherOrEqualThan(11,'Artificer') and not ClassLevelHigherOrEqualThan(13, 'Artificer')): Summon(1169f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON_2);GROUND:IF(ClassLevelHigherOrEqualThan(13,'Artificer') and not ClassLevelHigherOrEqualThan(15, 'Artificer')): Summon(0069f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON_2);GROUND:IF(ClassLevelHigherOrEqualThan(15,'Artificer') and not ClassLevelHigherOrEqualThan(20,'Artificer')):Summon(0169f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER_ARTIFICER_CANNON_PET_L15,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON_2);
 	GROUND:IF(ClassLevelHigherOrEqualThan(20,'Artificer')):Summon(0169f1a8-28c6-4eb3-863e-fa95040dc7e7,-1,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER_ARTIFICER_CANNON_PET_L20,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON_2)"
-data "SpellProperties" "GROUND:IF(not ClassLevelHigherOrEqualThan(9,'Artificer')):Summon(0069f1a8-28c6-4eb3-863e-fa95040dc7e7,Permanent,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON);GROUND:IF(ClassLevelHigherOrEqualThan(9,'Artificer') and not ClassLevelHigherOrEqualThan(15,'Artificer')):Summon(0169f1a8-28c6-4eb3-863e-fa95040dc7e7,Permanent,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON_2);GROUND:IF(ClassLevelHigherOrEqualThan(15,'Artificer') and not ClassLevelHigherOrEqualThan(20,'Artificer')):Summon(0169f1a8-28c6-4eb3-863e-fa95040dc7e7,Permanent,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER_ARTIFICER_CANNON_PET_L15,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON_2);GROUND:IF(ClassLevelHigherOrEqualThan(20,'Artificer')):Summon(0169f1a8-28c6-4eb3-863e-fa95040dc7e7,Permanent,,,'ArtificerCombatSummonStack',UNSUMMON_ABLE_CONSTRUCT_ARTIFICER_ARTIFICER_CANNON_PET_L20,COMPANION_CHARGED_LIGHTNING_CONSTRUCT,DISGUISE_SELF_ELDRITCH_CANNON_2)"
 data "TargetConditions" "CanStand('d642d398-f349-4eab-b98c-a82cbda19918') and not Character() and not Self()"
 data "SpellFlags" "IgnoreSilence;IsLinkedSpellContainer;CannotTargetItems;CannotTargetCharacter"
 
@@ -292,10 +280,10 @@ data "Icon" "Spell_Necromancy_FalseLife"
 data "DisplayName" "3326e61e8g9b89g4f30gb649gb3a97346a443;1"
 data "Description" "3336e61e8g9b89g4f30gb649gb3a97346a443;1"
 data "ExtraDescription" ""
-data "DescriptionParams" "GainTemporaryHitPoints(4+ProficiencyBonus)"
+data "DescriptionParams" "GainTemporaryHitPoints(1d8+IntelligenceModifier)"
 data "TooltipStatusApply" "ApplyStatus(FALSE_LIFE,100,-1)"
 data "TooltipUpcastDescription" "a2c83f37-e6e5-4c05-b2ef-a714c10d6cd3"
-data "TooltipUpcastDescriptionParams" "GainTemporaryHitPoints(4+ProficiencyBonus)"
+data "TooltipUpcastDescriptionParams" "GainTemporaryHitPoints(1d8+IntelligenceModifier)"
 data "TooltipPermanentWarnings" "8892b93b-721f-4b99-b9b4-05ac25aadb33"
 data "CastSound" "Spell_Cast_Healing_FalseLife_L1to3"
 data "TargetSound" "Spell_Impact_Healing_FalseLife_L1to3"
