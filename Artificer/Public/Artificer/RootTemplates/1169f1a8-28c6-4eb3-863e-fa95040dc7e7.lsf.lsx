@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Eldritch Cannon (lv 9)-->
+<!--Eldritch Cannon (lv 11)-->
 <save>
-	<version major="4" minor="0" revision="9" build="322" />
+	<version major="4" minor="0" revision="9" build="322" lslib_meta="v1,bswap_guids" />
 	<region id="Templates">
 		<node id="Templates">
 			<children>
 				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="0969f1a8-28c6-4eb3-863e-fa95040dc7e7" />
-					<attribute id="Name" type="LSString" value="Artillerist_EldritchCannon_09" />
+					<attribute id="MapKey" type="FixedString" value="1169f1a8-28c6-4eb3-863e-fa95040dc7e7" />
+					<attribute id="Name" type="LSString" value="Artillerist_EldritchCannon_11" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="d5676054-fe07-4c6d-8433-b79b33a80a89" />
@@ -19,7 +19,7 @@
 					<attribute id="DeathEffect" type="guid" value="eb0aa43b-fcdc-4ef2-548c-0ef60775834e" />
 					<attribute id="ExplodedResourceID" type="FixedString" value="3dd938ff-cd2f-797b-459a-6f3113a96bfa" />
 					<attribute id="DisintegratedResourceID" type="FixedString" value="a8df0d5a-d171-89d2-fd37-424a7f914ec6" />
-					<attribute id="LevelOverride" type="int32" value="9" />
+					<attribute id="LevelOverride" type="int32" value="11" />
 					<attribute id="VocalAlertResourceID" type="FixedString" value="7e97e20e-a3fa-3789-7b8f-536460c0c369" />
 					<attribute id="VocalAngryResourceID" type="FixedString" value="cf8595a8-824b-9d12-842a-3c9fc3314dcb" />
 					<attribute id="VocalBoredResourceID" type="FixedString" value="9083b899-a1ad-3fc0-e7ad-45b77df12d9b" />
