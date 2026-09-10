@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Eldritch Cannon (lv 7)-->
 <save>
-	<version major="4" minor="0" revision="9" build="322" />
+	<version major="4" minor="0" revision="9" build="322" lslib_meta="v1,bswap_guids" />
 	<region id="Templates">
 		<node id="Templates">
 			<children>

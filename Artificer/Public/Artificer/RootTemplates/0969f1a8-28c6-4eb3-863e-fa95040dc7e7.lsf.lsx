@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Eldritch Cannon (lv 9)-->
 <save>
-	<version major="4" minor="0" revision="9" build="322" />
+	<version major="4" minor="0" revision="9" build="322" lslib_meta="v1,bswap_guids" />
 	<region id="Templates">
 		<node id="Templates">
 			<children>
@@ -15,7 +15,7 @@
 					<attribute id="Scale" type="float" value="0.5" />
 					<attribute id="DisplayName" type="TranslatedString" handle="7726e61e8g9b89g4f30gb649gb3a97346a443" version="1" />
 					<attribute id="Icon" type="FixedString" value="Portrait_Creature_ArcaneTurret_Activated" />
-					<attribute id="Stats" type="FixedString" value="Companion_Artillerist_EldritchCannon_2" />
+					<attribute id="Stats" type="FixedString" value="Companion_Artillerist_EldritchCannon_09" />
 					<attribute id="DeathEffect" type="guid" value="eb0aa43b-fcdc-4ef2-548c-0ef60775834e" />
 					<attribute id="ExplodedResourceID" type="FixedString" value="3dd938ff-cd2f-797b-459a-6f3113a96bfa" />
 					<attribute id="DisintegratedResourceID" type="FixedString" value="a8df0d5a-d171-89d2-fd37-424a7f914ec6" />
