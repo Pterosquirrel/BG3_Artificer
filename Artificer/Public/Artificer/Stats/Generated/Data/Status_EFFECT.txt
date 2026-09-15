@@ -11,3 +11,8 @@ data "OnApplyFunctors" "ApplyStatus(SELF,LIGHTNING_LAUNCHER_HIT_OWNER,100,2)"
 data "OnRemoveFunctors" ""
 data "StatusEffect" "869aaa90-c2da-40d3-856a-9730df79c4ba"
 data "BeamEffect" "5bbedd95-2d56-4974-ab7a-ccfa0a9e36fd"
+
+new entry "ARTILLERIST_PROTECTED_1"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "FALSE_LIFE"

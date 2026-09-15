@@ -111,7 +111,7 @@
 									</children>
 								</node>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_FalseLife_EldritchCannon" />
+									<attribute id="Skill" type="FixedString" value="Target_Protector_EldritchCannon_2" />
 									<attribute id="SpellCastingAbility" type="uint8" value="4" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="3" />

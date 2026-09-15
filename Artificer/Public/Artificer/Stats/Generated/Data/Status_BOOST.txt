@@ -1722,3 +1722,27 @@ data "Icon" "TODO"
 data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog;DisablePortraitIndicator;DisableOverhead"
 data "StatusGroups" ""
 data "Boosts" "UnlockSpell(Target_BattleSmithCompanion_SteelWatch)"
+
+
+new entry "ARTILLERIST_PROTECTED_1"
+type "StatusData"
+data "StatusType" "BOOST"
+using "FALSE_LIFE"
+data "StackPriority" "8"
+data "Boosts" "TemporaryHP(8)"
+
+
+new entry "ARTILLERIST_PROTECTED_2"
+type "StatusData"
+data "StatusType" "BOOST"
+using "FALSE_LIFE"
+data "StackPriority" "9"
+data "Boosts" "TemporaryHP(9)"
+
+
+new entry "ARTILLERIST_PROTECTED_3"
+type "StatusData"
+data "StatusType" "BOOST"
+using "FALSE_LIFE"
+data "StackPriority" "10"
+data "Boosts" "TemporaryHP(10)"
