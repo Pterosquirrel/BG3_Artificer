@@ -16,7 +16,7 @@
 					<attribute id="DisplayName" type="TranslatedString" handle="7726e61e8g9b89g4f30gb649gb3a97346a443" version="1" />
 					<attribute id="Icon" type="FixedString" value="Portrait_Creature_ArcaneTurret_Activated" />
 					<attribute id="Stats" type="FixedString" value="Companion_Artillerist_EldritchCannon_07" />
-					<attribute id="DeathEffect" type="guid" value="eb0aa43b-fcdc-4ef2-548c-0ef60775834e" />
+					<attribute id="DeathEffect" type="guid" value="eb0aa43b-fcdc-4ef2-8c54-f60e75074e83" />
 					<attribute id="ExplodedResourceID" type="FixedString" value="3dd938ff-cd2f-797b-459a-6f3113a96bfa" />
 					<attribute id="DisintegratedResourceID" type="FixedString" value="a8df0d5a-d171-89d2-fd37-424a7f914ec6" />
 					<attribute id="LevelOverride" type="int32" value="7" />
@@ -32,23 +32,23 @@
 					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
 					<attribute id="LightChannel" type="uint8" value="5" />
 					<attribute id="Archetype" type="FixedString" value="ranged" />
-					<attribute id="Race" type="guid" value="959e884c-d96c-4f09-ea91-4ae9355871bf" />
+					<attribute id="Race" type="guid" value="959e884c-d96c-4f09-91ea-e94a5835bf71" />
 					<attribute id="BloodType" type="FixedString" value="" />
 					<children>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
-									<attribute id="Object" type="guid" value="26c78224-a4c1-43e4-43b9-e7751bfa41fa" />
+									<attribute id="Object" type="guid" value="26c78224-a4c1-43e4-b943-75e7fa1bfa41" />
 								</node>
 								<node id="Tag">
-									<attribute id="Object" type="guid" value="22e5209c-eaeb-40dc-efb6-71a34179c210" />
+									<attribute id="Object" type="guid" value="22e5209c-eaeb-40dc-b6ef-a371794110c2" />
 								</node>
 							</children>
 						</node>
 						<node id="SpeakerGroupList">
 							<children>
 								<node id="SpeakerGroup">
-									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-3cf7-5894f9b49f0b" />
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
 								</node>
 							</children>
 						</node>
