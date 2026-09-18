@@ -78,7 +78,7 @@ data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:6;ReactionActi
 data "NecroticResistance" "Immune"
 data "PoisonResistance" "Immune"
 data "PsychicResistance" "Immune"
-data "InitiativeBonus" "1"
+data "Initiative" "2"
 data "DarkvisionRange" "30"
 data "Class" "Artificer"
 data "DifficultyStatuses" "STATUS_EASY:PLAYER_BONUSES_EASYMODE"
@@ -91,12 +91,16 @@ data "UnarmedRangedAttackAbility" "Intelligence"
 data "UnarmedMeleeAbilityModifier" "Intelligence"
 
 
-new entry "Companion_Artillerist_EldritchCannon_05"
+new entry "Companion_Artillerist_EldritchCannon_04"
 type "Character"
 using "Companion_Artillerist_EldritchCannon"
+data "Intelligence" "18"
+
+new entry "Companion_Artillerist_EldritchCannon_05"
+type "Character"
+using "Companion_Artillerist_EldritchCannon_04"
 data "Vitality" "25"
 data "Intelligence" "18"
-data "InitiativeBonus" "2"
 
 new entry "Companion_Artillerist_EldritchCannon_06"
 type "Character"
