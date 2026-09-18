@@ -94,6 +94,7 @@ data "UnarmedMeleeAbilityModifier" "Intelligence"
 new entry "Companion_Artillerist_EldritchCannon_04"
 type "Character"
 using "Companion_Artillerist_EldritchCannon"
+data "Vitality" "20"
 data "Intelligence" "18"
 
 new entry "Companion_Artillerist_EldritchCannon_05"
