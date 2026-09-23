@@ -120,7 +120,6 @@ type "Character"
 using "Companion_Artillerist_EldritchCannon_07"
 data "Vitality" "45"
 data "Intelligence" "20"
-data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1"
 
 new entry "Companion_Artillerist_EldritchCannon_12"
 type "Character"
